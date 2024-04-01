@@ -11,6 +11,8 @@ void f(char **p)
 {
     char *t;
     t = (p += sizeof(int))[-1];
-    printf("%sn", t);
+    printf("%s\n", t);
+    printf("Hello GITHUB"); // new comment
+    //Hello GITHUB
 }
 // ab cd ef gh
