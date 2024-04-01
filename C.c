@@ -11,7 +11,7 @@ void f(char **p)
 {
     char *t;
     t = (p += sizeof(int))[-1];
-    printf("%sn", t);
+    printf("%s\n", t);
     printf("Hello GITHUB");
     //Hello GITHUB
 }
